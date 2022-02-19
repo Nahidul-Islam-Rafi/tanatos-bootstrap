@@ -28,6 +28,7 @@
   width: 100%;
   text-align: center;
   padding-top: 130px;
+  padding-bottom: 40px;
 }
 .banner h1 {
   color: white;
@@ -54,20 +55,20 @@
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 120px;
+
   transition: 0.4s ease-in-out;
   border-radius: 10px;
 }
 .btn-1 {
   background-color: #f7600e;
   border: none;
-  margin-right: 8px;
+  margin-right: 12px;
   transition: 0.4s ease-in-out;
 }
 .btn-2 {
   background-color: transparent;
   border: 1px solid white;
-  margin-left: 8px;
+  margin-left: 12px;
   transition: 0.4s ease-in-out;
 }
 .btn-1:hover {
@@ -82,6 +83,8 @@
   transform: scale(1.05);
 }
 .banner i {
+  margin-top: 120px;
+
   display: block;
   color: white;
   font-size: 30px;
@@ -607,6 +610,12 @@ footer p {
   .banner h1 {
     font-size: 54px;
   }
+  .banner button {
+    font-size: 12px;
+  }
+  .banner i {
+    margin-top: 60px;
+  }
   .hover-overlay {
     padding: 5px;
   }
@@ -658,6 +667,9 @@ footer p {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .banner i {
+    margin-top: 80px;
+  }
   .hover-overlay {
     padding: 5px;
   }
