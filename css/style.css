@@ -95,6 +95,9 @@
 }
 
 /* Service Section */
+.service {
+  padding: 80px 0px;
+}
 .service-box {
   display: inline-block;
   text-align: center;
@@ -598,11 +601,17 @@ footer p {
 /* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .banner {
+    padding-top: 60px;
+  }
+  .banner h1 {
+    font-size: 54px;
+  }
   .hover-overlay {
     padding: 5px;
   }
   .hover-overlay h2 {
-    padding-top: 100px;
+    padding-top: 52px;
     font-size: 40px;
   }
   .hover-overlay p {
