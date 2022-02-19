@@ -639,11 +639,17 @@ footer p {
     font-size: 10px;
     margin: 0px 3px;
   }
+  .contact-icons {
+    text-align: center;
+  }
   .contact-icon-box {
-    height: 20px;
-    width: 20px;
-    font-size: 12px !important;
+    height: 26px;
+    width: 26px;
+    font-size: 14px !important;
     margin-top: 20px;
+  }
+  .contact-form {
+    padding: 0px 35px;
   }
   footer {
     text-align: center;
@@ -674,11 +680,17 @@ footer p {
   .team-box h2 {
     font-size: 16px;
   }
+  .contact-form {
+    padding: 0px 60px;
+  }
   .contact-icon-box {
     margin-top: 20px;
-    height: 24px;
-    width: 24px;
-    font-size: 14px !important;
+    height: 28px;
+    width: 28px;
+    font-size: 16px !important;
+  }
+  .contact-icons {
+    text-align: center;
   }
   footer {
     text-align: center;
